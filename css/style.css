@@ -514,6 +514,10 @@ figure {
   margin-bottom: 30px;
 }
 
+#fh5co-event .event-wrap .event-col.place {
+  margin-left: 16%;
+}
+
 #fh5co-counter {
   height: 600px;
 }
@@ -521,6 +525,10 @@ figure {
 @media screen and (max-width: 768px) {
   #fh5co-counter {
     height: auto;
+  }
+
+  #fh5co-event .event-wrap .event-col.place {
+    margin-left: 6%;
   }
 }
 
@@ -545,6 +553,10 @@ figure {
   .timeline:before {
     margin-left: -64px;
   }
+
+#fh5co-event .event-wrap .event-col.place {
+  margin-left: 6%;
+}
 }
 
 .timeline>li {
