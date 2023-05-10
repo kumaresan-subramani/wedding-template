@@ -422,7 +422,7 @@ figure {
 }
 
 #fh5co-counter .fh5co-heading h2,
-#fh5co-event .fh5co-heading h2 {
+#fh5co-event .fh5co-heading h6 {
   color: #fff;
 }
 
@@ -1353,7 +1353,8 @@ form label {
   margin-bottom: 2em;
 }
 
-.fh5co-heading h2 {
+.fh5co-heading h2,
+.fh5co-heading h6 {
   font-size: 60px;
   margin-bottom: 10px;
   line-height: 1.5;
@@ -1363,7 +1364,8 @@ form label {
 }
 
 @media screen and (max-width: 768px) {
-  .fh5co-heading h2 {
+  .fh5co-heading h2,
+  .fh5co-heading h6 {
     font-size: 40px;
   }
 }
@@ -1541,7 +1543,8 @@ form label {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#fh5co-started .fh5co-heading h2 {
+#fh5co-started .fh5co-heading h2,
+#fh5co-started .fh5co-heading h6 {
   color: #fff;
 }
 
@@ -1607,7 +1610,8 @@ form label {
   margin-bottom: 30px;
 }
 
-#fh5co-started .fh5co-heading h2 {
+#fh5co-started .fh5co-heading h2,
+#fh5co-started .fh5co-heading h6 {
   margin-bottom: 0;
 }
 
